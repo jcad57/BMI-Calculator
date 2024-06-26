@@ -141,10 +141,11 @@ input[type=radio] {
     background-color: #fff;
     margin: 0;
 
-    width: 1.938rem;
-    aspect-ratio: 1 !important;
+    min-width: 1.938rem;
+    min-height: 1.938rem;
+    aspect-ratio: 1;
     border: 1px solid var(--radio-btn-border-clr-default);
-    border-radius: 50% !important;
+    border-radius: 50%;
 }
 
 input[type=radio]:checked {
