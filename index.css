@@ -140,21 +140,21 @@ input[type=radio] {
     appearance: none;
     background-color: #fff;
     margin: 0;
-
-    min-width: 1.938rem;
-    min-height: 1.938rem;
+    min-width: 30px;
+    min-height: 30px;
     aspect-ratio: 1;
     border: 1px solid var(--radio-btn-border-clr-default);
     border-radius: 50%;
 }
 
 input[type=radio]:checked {
-    margin-inline: .5rem;
-    margin-block: .5rem;
-    width: 1rem;
+    min-width: 15px;
+    min-height: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
     background-color: var(--clr-blue);
     border: none;
-    outline: .5rem solid hsl(227, 92%, 58%, 15%);
+    outline: 9px solid hsl(227, 92%, 58%, 15%);
 }
 
 input[type=radio]:hover {
@@ -233,6 +233,7 @@ label {
 .bmi__unit-select-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     gap: 1rem;
     padding-block: 1.5rem;
 }
