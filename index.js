@@ -9,8 +9,8 @@ const imperialContainerElement = document.querySelector(".bmi__input-container--
 
 const metricHeightInputElement = document.getElementById("metric-height");
 const metricWeightInputElement = document.getElementById("metric-weight");
-const imperialHeightFeetInputElement = document.getElementById("imperial-height-ft");
-const imperialHeightInchInputElement = document.getElementById("imperial-height-in");
+const imperialHeightFeetInputElement = document.querySelector(".imperial-height-ft");
+const imperialHeightInchInputElement = document.querySelector(".imperial-height-in");
 const imperialWeightInputElement = document.getElementById("imperial-weight");
 const allInputElements = document.querySelectorAll("input[type=text]");
 

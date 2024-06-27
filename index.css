@@ -167,6 +167,11 @@ label {
     color: var(--clr-gunmetal);
 }
 
+fieldset {
+    border: none;
+    outline: none;
+}
+
 .hidden {
     display: none !important;
 }
@@ -604,16 +609,11 @@ label {
 
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        /* gap: 1rem; */
     }
 
     .limitations--text {
         margin-bottom: 3.5rem;
     }
-
-    /* .limitations--header {
-        grid-column: span 12;
-    } */
 
     .limitations--container :nth-child(1) {
         grid-column: span 12;
@@ -804,5 +804,9 @@ label {
 @media (min-width: 101.563em) {
     .bmi-results-section--content {
         padding-left: 140px;
+    }
+
+    .header--container:after {
+        right: 100px;
     }
 }

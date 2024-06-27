@@ -28,6 +28,7 @@
 
           <div class="header--bmi-calc-container">
             <h2 class="bmi__header">Enter your details below</h2>
+            <fieldset id="radio-btn-unit-select">
             <div class="bmi__unit-select-container">
               <div class="bmi__radio-btn">
                 <label for="metric">
@@ -48,6 +49,7 @@
                 </label>
               </div>
             </div>
+          </fieldset>
             <div class="bmi__input-container">
               <!--METRIC INPUT-->
               <div class="bmi__input-container--metric ">
@@ -66,10 +68,10 @@
               <div class="bmi__input-container--imperial hidden">
                 <div>
                 <label for="imperial-height">Height </label>
-                <input type="text" name="imperial-height" id="imperial-height-ft" min="1" max="99" maxlength="2"/>
+                <input type="text" name="imperial-height" id="imperial-height" class="imperial-height-ft" min="1" max="99" maxlength="2"/>
                 <span class="input-for-imperial-height-ft"></span>
                 <br>
-                <input type="text" name="imperial-height" id="imperial-height-in" min="1" max="11" maxlength="2"/>
+                <input type="text" name="imperial-height" id="imperial-height" class="imperial-height-in" min="1" max="11" maxlength="2"/>
                 <span class="input-for-imperial-height-in"></span>
               </div>
               <div>
